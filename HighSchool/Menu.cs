@@ -49,7 +49,7 @@ namespace HighSchool
 
                 if (UserActions.ContainsKey(userInput))
                 {
-                    UserActions[userInput].Invoke();
+                    UserActions[userInput].Invoke(); //Calls the method the user choose 
                 }
                 else
                 {
